@@ -1,0 +1,24 @@
+*{
+    font-family: sans-serif;
+    line-height: 1.618em;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3{
+color: #191368;
+}
+html{
+    font-size: 16px;
+    margin-top: 2.5em;
+}
+header,
+main,
+footer{
+    margin: 0 auto;
+    max-width: 600px;
+}
+header{
+    padding: 3em 0;
+
+}
