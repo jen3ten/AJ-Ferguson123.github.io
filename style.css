@@ -14,14 +14,19 @@ html{
 }
 header,
 main,
-footer{
+footer{    
     margin: 0 auto;
     max-width: 600px;
 }
-header{
+header{   
+
     padding: 3em 0;
 
 }
-#myprojects{
-    
+header span{
+    display:flex;
+    align-items: center;
+    font-size: 1em;
+    color: rgb(77, 21, 21);
+
 }
