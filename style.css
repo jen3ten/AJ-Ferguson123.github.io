@@ -17,38 +17,56 @@ html{
     margin-top: 2.5em;    
 }
 h1{
-   padding: 1em 1em;
+   padding: .5em .5em;
    background-color: rgb(101, 197, 22);
    border-radius: 2px;
-
+   text-align: center;
 }
+
 header,
 main,
 footer{    
     margin: 0 auto;
     max-width: 600px;
 }
-header{   
-    
+header{       
     padding: 3em 0;
-
 }
 header span{
     display:flex;
-    align-items: center;
+    justify-content: center;
+    
+    padding: 1em 2em;
     font-size: 1em;
-    color: rgb(77, 21, 21);
+    color: rgb(77, 21, 21);    
 }
-
+#aboutMe>h2{
+    padding: 1em 1em;
+    background: pink;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.watches>img{
+    display:flex;
+    justify-content: center;
+}
+.watches>img{
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+}
 section{
 padding-top: 2em;
-color: rgb(33, 226, 27);
+color: rgb(126, 177, 125);
 }
 nav a:hover{
-    background: whitesmoke;
+    background: rgb(77, 16, 16);
     
 }
-
+section>img{
+    image-orientation: 10em;
+}
 
 nav{
     position: fixed;
@@ -74,13 +92,22 @@ section ul{
     display:flex;
     flex:wrap;
     flex:200px;
-    grid-column-gap: 2.5em;
+    grid-column-gap: 5em;
     padding: 2em;
+    justify-content: center;
+}
+#techSkills{
+    background: rgb(240, 60, 240);
+    padding: 3px 3px;
+    text-align: center;
+}
+#techSkills>ul>li{
+    padding: 2px 5px;
+    text-decoration-color: aquamarine;
 }
 
-
 footer{
-    margin-top: 2em;
+    margin-top: center;
     margin-bottom: 1em;
     background: rgb(8, 2, 2);
     color: #fff;
