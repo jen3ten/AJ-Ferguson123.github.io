@@ -17,9 +17,9 @@ html{
     margin-top: 2.5em;    
 }
 h1{
-   padding: .5em .5em;
+   padding: 10px 10px;
    background-color: rgb(101, 197, 22);
-   border-radius: 2px;
+   border-radius: 4px;
    text-align: center;
 }
 
@@ -37,8 +37,30 @@ header span{
     justify-content: center;
     
     padding: 1em 2em;
-    font-size: 1em;
+    font-size: 2em;
     color: rgb(77, 21, 21);    
+}
+.myProjects>h2{
+    font-size: 30px;
+    text-align: center;
+    
+}
+.projects>article{
+    background: #191368;
+    padding: 2em;
+}
+.projects{
+    padding: 1em 1em;
+    font-size: 15px;
+    color: #191368;
+}
+.projects {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    grid-row: auto;
+    grid-row-gap: 2em;
+    
 }
 #aboutMe>h2{
     padding: 1em 1em;
@@ -92,18 +114,25 @@ section ul{
     display:flex;
     flex:wrap;
     flex:200px;
-    grid-column-gap: 5em;
+    grid-column-gap: 10em;
     padding: 2em;
     justify-content: center;
 }
 #techSkills{
     background: rgb(240, 60, 240);
-    padding: 3px 3px;
+    padding: 2px 3px;
     text-align: center;
 }
-#techSkills>ul>li{
-    padding: 2px 5px;
-    text-decoration-color: aquamarine;
+#getInTouch{
+    display:grid;
+    
+    padding: 3em;
+ /*   grid-row: 15px 15px;*/
+ 
+}
+#getInTouch{
+    padding: 2px 2px;
+    text-align: center;
 }
 
 footer{
