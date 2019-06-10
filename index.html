@@ -1,43 +1,64 @@
 <!DOCTYPE html>
 <html>
     <head>
-
         <title>Resume2019</title>
         <link rel="stylesheet" type="text/css" href="./style.css">
-    </head>
+        <style>
+                body {
+                        background-image: url("https://preview.redd.it/amdnsujpncz11.jpg?width=640&crop=smart&auto=webp&s=824946dc876033bbe968bd4e9c4d2e74fcf41bf2");
+                        background-repeat: repeat;
+                      }     
+                     /* .clearfix{
+                          overflow: auto;
+                      }    */       
+                </style>
+            </head>
     <body>
         <header>
             <h1>Aaron J Ferguson </h1>
-            <span>Software Developer</span>            
+            <section id="softwareDeveloper">     
+                <span><stong>Software Developer</stong></span>       
         </header>
         <main>
             <section id="aboutMe">
                 <h2>About Me</h2>
-                <p>Software Developer with a passion for proper layout and design within the scope of project's. Along with integration of the most up to date studies in object oriented programming. Combining these talents and passions to create wonderfully intuitive software applications. </p>
+                <p>Software Developer with a <strong>passion</strong> for proper layout and design within the scope of project's. Along with integration of the most <b>up to date </b>studies in object oriented programming. Combining these talents and passions to create wonderfully intuitive software applications. </p>
+                <p class="double">A double border.</p>
+            </section>
+            <section>
+                <section class="watches">
+                <img src="images/caravelle devil diver1.jpg" alt="Caravelle Devil Diver">
+                <p>This is just a little filler piece from circa 1969. Caravelle Devil Diver, depth rated to 666ft, hence the name. It also has a cool seconds hand with a tipped airplane. Originally given to the United States Navy crew men.</p>
+            </section>
             </section>
             <section class="myProjects">
                 <h2>My Projects</h2>
-                <p>Here is a preview of some projects that I have completed.</p>  
+                <p>Here is a preview of some projects that I have completed. I hope that you enjoy them as is.</p>  
                 <div class="projects">
                  <article>
                      <h3>Project 1</h3>
-                     <img src="" alt="Pet's Shelter Project">
-                     <p>This project is a example of a group project completed using C# programming language. It showcases my ability to complete a project in a agile setting, using object oriented programming, and the abilty using test driven developmentstyle formatting.</p>
+                     <img src="images/PetShelter.jpg" alt= "Pet's Shelter Project">
+                     <p>This project is a example of a group project completed using <strong>C#</strong> programming language. It showcases my ability to complete a project in a agile setting, using object oriented programming, and the abilty using test driven developmentstyle formatting.</p>
                  </article>
-
-
-
-
-                </div>                        
-                </section>
-                <section id="techSkills">
-                    <h2>Tech Skills</h2>
-                    <ul>
+                 <article>
+                     <h3>Project 2</h3>
+                     <img src="images/pastel girl reddit.jpg" alt="Code Business Project">
+                     <p>A demonstartion of ability to create a front-end styled page. Using CSS, HTML, anad FlexBox, I was able to create a enjoyable to view web page.</p>
+                 </article>
+                 <article>
+                    <h3>Project 3</h3>
+                    <img src="images/download.jpg" alt="Tudor Submariner REf#79090.">
+                    <p>This is just a filler for the projects section. Another project will be added once it is completed and looks good enough for me to present.</p>
+                 </article>
+                  </div>                        
+                 </section>
+                 <section id="techSkills">
+                    <h2>Tech Skills</h2>                    
                          <li>HTML</li>
                          <li>CSS</li>
                          <li>CSS Grid</li>
                          <li>CSS FlexBox</li>
-                    </ul>
+                    
                 </section>
                 <section id="getInTouch">
                     <h2>How to get In Touch</h2>
@@ -50,12 +71,13 @@
         </main>
         <nav>
           <a href="#aboutMe">About Me</a>
-          <a href="myProjects">My Projects</a>
-          <a href="getInTouch">Get In Touch</a>
+          <a href="#myProjects">My Projects</a>
+          <a href="#getInTouch">Get In Touch</a>
+          <a href="#techSkills">Tech Skills</a>
         </nav>
         <footer>
-                &copy; 2019 AJF Resume
-                
+                &copy; 2019 AJF Resume                
                 </footer>
+
     </body>
 </html>
